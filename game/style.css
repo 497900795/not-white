@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    margin: 0 auto;
+    width: 400px;
+    height: 700px;
+    border: 1px solid;
+    overflow: hidden;
+}
+
+.top {
+    height: 100px;
+    border-bottom: 1px solid;
+    text-align: center;
+    line-height: 100px;
+    font-size: 150%;
+}
+
+.main {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    width: 400px;
+}
+
+.container > li {
+    float: left;
+    list-style: none;
+    width: 100px;
+    height: 100px;
+}
+
+.container-move {
+    transition: all 0.5s;
+    top: 0px;
+}
+
+.foot {
+    height: 100px;
+    border-top: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot > div {
+    font-size: 200%;
+    color: dodgerblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    cursor: pointer; 
+}
+
+.block-wt {
+    background-color: white;
+}
+
+.block-rd {
+    background-color: red;
+}
+
+.block-gr {
+    background-color: green;
+}
+
+.block-bl {
+    background-color: blue;
+}
